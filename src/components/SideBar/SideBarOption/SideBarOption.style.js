@@ -17,10 +17,12 @@ export const SidebarOptionContainer = styled.div`
   > h3 {
     font-weight: 500;
   }
-
-  /* > span {
-
-  } */
 `;
 
-export const SidebarOptionChannel = styled.div``;
+export const SidebarOptionChannel = styled.h3`
+  padding: 10px 0;
+  font-weight: 300;
+  > span {
+    padding: 15px;
+  }
+`;
